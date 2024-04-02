@@ -41,7 +41,7 @@ const TaskInput = () => {
             type="text"
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="Add task"
+            placeholder="🟢🔴🟡"
           />
           <button id="btn" type="submit">Add</button>
         </form>
